@@ -186,7 +186,45 @@ height: 350px;
   width: 30%;
 background-color: rgba(95, 158, 160, 0.486);
  margin-top: -5px;
+
 }
+/* tranfrom */
+.value3{
+height: 70px;
+width: 150px;
+background-color: white;
+margin-top: 150px;
+transform: rotate(90deg);
+margin-left: -5px;
+}
+.value3 p{
+  transform: rotate(180deg);
+  text-align: center;
+  padding-bottom: 28px;
+  font-size: 18px;
+}
+.value3:hover{
+  background-color: gray;
+}
+
+.infotter{
+  height: 70px;
+  width: 180px;
+  background-color:white;
+  transform: rotate(90deg);
+  margin-top: 280px;
+  margin-left: 10px;
+}
+.infotter p{
+  transform: rotate(180deg);
+  text-align: center;
+  padding-bottom: 28px;
+  font-size: 18px;
+}
+.infotter:hover{
+  background-color: gray;
+}
+
 .value1{
   height: 352px;
   width:70% ;
@@ -240,7 +278,7 @@ padding-top: 120px;
 .fotter1{
   height: 620px;
   width: 15%;
-  background-color: darkcyan;
+  background-color: rgba(60, 109, 110, 0.486);
 }
 .fotter-main{
   display: flex;
@@ -381,4 +419,365 @@ padding: 20px;
 }
 .edit sub{
   color: blueviolet;
+}
+.nav{
+  background-image: url("./images/about_bg.jpg");
+  height: 600px;
+  width: 100%;
+  position: relative;
+}
+.nav1{
+  padding-top: 50px;
+  padding-left: 230px;
+  color: white;
+}
+.nav1 h1{
+  font-size: 50px;
+}
+.nav-image{
+  height: 550px;
+  width: 1100px;
+  border: 1px solid gray;
+  position: absolute;
+  top: 313px;
+  left: 230px;
+  display: flex;
+}
+.nav-image1{
+  height: 550px;
+}
+.nav-image2{
+  width: 388px;
+}
+.nav-image h2, h3{
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.nav-image h3{
+  font-weight: normal;
+}
+.nav-image button{
+  margin-left: 30px;
+  height: 40px;
+  width: 120px;
+  text-align: center;
+  color: white;
+  background-color: gray;
+  border: 1px solid gray;
+}
+.nav-image button:hover{
+  background-color: black;
+}
+.show{
+  height: 600px;
+  width: 100%;
+  margin-top: 300px;
+  display: flex;
+}
+.show1{
+  height: 500px;
+  width: 68%;
+}
+.show-line{
+  margin-left: 230px;
+  height: 600px;
+  width: 70%;
+}
+.show-line span{
+  color: blue;
+}
+.show-line h4{
+  font-weight: normal;
+
+}
+.aside{
+  height: 450px;
+  width: 250px;
+  border: 1px solid grey;
+}
+.aside1{
+  display: flex;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.asidea{
+  padding-left: 19px;
+}
+.aside3{
+  padding-left: 19px;
+  display: flex;
+}
+.aside3 i{
+  margin-left: 20px;
+  height: 35px;
+  width: 60px;
+ background-color: darkgray;
+text-align: center;
+padding-top: 10px ;
+}
+.aside3 i:hover{
+  background-color: black;
+  color: white;
+}
+.border{
+  height: 1px;
+  width: 200px;
+  background-color: dimgray;
+  margin: auto;
+}
+.you-might{
+  height: 600px;
+  width: 100%;
+background-color: rgb(236, 235, 233);
+}
+.you-might1{
+  margin: 0px 180px;
+  /* border: 1px solid red; */
+}
+.you-might1 h1{
+  font-size: 40px;
+  padding-top: 70px;
+  padding-left: 20px;
+}
+.box{
+  display: flex;
+  padding: 0px 20px;
+}
+.box1{
+  height: 400px;
+  width: 370px;
+  /* border: 1px solid red; */
+  background-color: white;
+
+}
+.box1 h2{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.box1 h1{
+  font-size: 20px;
+margin-top: -60px;
+}
+.box-head{
+  display: flex;
+}
+.event{
+  background-image: url("./images/rent_venue_bg.jpg");
+  height: 320px;
+  width: 100%;
+}
+.event h1{
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+  font-size: 50px;
+}
+.event h2{
+  text-align: center;
+  color: white;
+}
+.listing{
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+}
+.purchase{
+  height: 1000px;
+  width: 100%;
+  background-color: white;
+}
+.step{
+  height: 120px;
+  width: 1200px;
+  margin: auto;
+  background-color: rgb(226, 236, 236);
+  display: flex;
+  position: relative;
+}
+.step1{
+  padding-left: 10px;
+  padding-top: 30px;
+
+}
+.step2 p{
+  padding-left: 150px;
+  font-size: 20px;
+  padding-top: 30px;
+}
+.step2 i{
+  padding-left: 130px;
+position: absolute;
+top: 5px;
+padding-top: 30px;
+}
+.step button{
+  height: 50px;
+  width: 190px;
+  margin-top: 30px;
+  margin-left: 110px;
+  background-color: black;
+  color: white;
+}
+.step button:hover{
+  background-color: darkslategray;
+  border: 1px solid darkslategray;
+}
+.number{
+  height: 100px;
+  width: 100%;
+  /* background-color: bisque; */
+ margin-top: -70px;
+
+}
+.number1{
+  display: flex;
+  margin: auto;
+}
+.number2{
+  height: 35px;
+  width: 100px;
+  background-color: rgb(168, 168, 161);
+  margin-top: 30px;
+  margin-left: 520px;
+  text-align: center;
+  padding-top: 15px;
+}
+.number3{
+  height: 35px;
+  width: 50px;
+  background-color: rgb(168, 168, 161);
+  text-align: center;
+  padding-top: 15px;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+.number4{
+  height: 35px;
+  width: 100px;
+  background-color: rgb(168, 168, 161);
+  margin-top: 30px;
+  margin-left: 60px;
+  text-align: center;
+  padding-top: 15px;
+}
+.number2:hover{
+  background-color:black;
+  color: white;
+}
+.number3:hover{
+  background-color:black;
+  color: white;
+}
+.number4:hover{
+  background-color:black;
+  color: white;
+}
+.rent{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  padding-left: 70px;
+}
+.rent1{
+  padding-left: 120px;
+  padding-top: 30px;
+  font-size: 20px;
+}
+.rent button{
+  height: 40px;
+  width: 150px;
+  background-color: black;
+  color: white;
+ margin-left: 230px;
+}
+.rent button:hover{
+  background-color: gray;
+  border: 1px solid gray;
+}
+.rent2{
+  height: 1px;
+  width: 1220px;
+  margin: auto;
+  background-color: grey;
+}
+.garden{
+  height: 250px;
+  width: 90%;
+  /* background-color: rebeccapurple; */
+  display: flex;
+margin: 0px auto;
+padding-left: 180px;
+
+}
+.garden1{
+  width: 60%;
+}
+.garden1 p{
+  font-size: 18px;
+}
+.garden1 span{
+  color: blue;
+}
+.garden-map{
+  height: 250px;
+  width: 300px;
+  padding-left: 80px;
+}
+.gardan-map1{
+  height: 1px;
+  width: 900px;
+  background-color: gray;
+  margin-left: 170px;
+}
+.square{
+  height: 50px;
+  width: 100%;
+  display: flex;
+}
+.square1{
+  padding-left: 170px;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.square h2{
+  padding-left: 190px;
+  padding-top: 10px;
+}
+.garden-map2{
+  padding-left: 1100px;
+  font-size: 20px;
+  font-weight: normal;
+}
+.application{
+  height: 680px;
+  width: 100%;
+  /* background-color: red; */
+  margin: 0px 170px;
+}
+.email{
+  display: flex;
+}
+.email1{
+  height: 50px;
+  width: 450px;
+}
+.email2{
+  height: 50px;
+  width: 450px;
+  margin-left: 20px;
+}
+.email3{
+  height: 150px;
+  width: 930px;
+
+}
+.application button{
+  height: 40px;
+  width: 150px;
+  background-color: black;
+  color: white;
+}
+.application button:hover{
+  background-color: darkslategrey;
+  border: 1px solid darkslategrey;
 }
